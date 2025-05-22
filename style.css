@@ -100,7 +100,7 @@ h5 {
     margin-left: 4px;
 }
 
-@media (min-width: 480px){
+@media (max-width: 480px){
 .pindex{
     font-size: 17px;
 }
