@@ -1,1 +1,109 @@
 {"version":3,"sources":["style.scss","_variables.scss","style.css"],"names":[],"mappings":"AAGA;EACC,yBCHS;EDIT,qDCDe;EDEf,eAAA;EACA,gBAAA;EACA,YAAA;AEFD;;AFIA;EACC,yBCVS;EDWT,gBAAA;EACA,kBAAA;EACA,0BAAA;EACA,UAAA;AEDD;;AFGA;EACC,oCCboB;ACarB;;AFEA;EACC,gBAAA;EACA,qBAAA;EACA,aAAA;EACA,yBCvBS;EDwBT,qBAAA;EACA,eAAA;EACA,yBAAA;AECD;;AFEC;EACC,yBC9BQ;ED+BR,qBAAA;AECF;;AFGC;EACC,eAAA;EACA,yBCrCQ;ACqCV;AFEC;EACC,eAAA;AEAF;AFEC;EACC,cC1CQ;ED2CR,YAAA;AEAF;;AFGA;EACC,uBC3CoB;AC2CrB;;AFEA;EACC,qBAAA;EACA,eAAA;AECD;;AFCA;EACC,UAAA;EACA,WAAA;AEED;;AFAA;EACC,YCzDS;ED0DT,YAAA;AEGD;;AFDA;EACC,aAAA;EACA,4BAAA;AEID;;AFFA;EACC,gBAAA;EACA,aAAA;AEKD;;AFHA;EACC,aAAA;AEMD;;AFJA;EACC,aAAA;EACA,WAAA;AEOD;;AFJC;EACC,YAAA;EACA,WAAA;EACA,gBAAA;AEOF;;AFHC;EACC,aAAA;EACA,iCAAA;EACA,UAAA;EACA,uBAAA;AEMF;;AFHA;EACC;IACC,eAAA;EEMA;EFHA;IACC,WAAA;EEKD;AACF","file":"style.css"}
+p {
+  color: rgb(255, 255, 255);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: left;
+  margin: 10px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font: size 100px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0%;
+}
+
+body {
+  background-color: rgb(137, 143, 141);
+}
+
+.linkimportante {
+  display: flexbox;
+  align-content: center;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.redsociales a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+div h2 {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+div p {
+  font-size: 15px;
+}
+div li {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.piedepagina {
+  background-color: black;
+  display: flex;
+  margin: 8px;
+}
+
+.h1galeria {
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#carouselExampleCaptions {
+  width: 50%;
+  height: 40%;
+}
+
+h5 {
+  color: black;
+  margin: 50px;
+}
+
+.spotify {
+  display: grid;
+  align-content: space-between;
+}
+
+.pindex {
+  display: flexbox;
+  padding: 20px;
+}
+
+.fila {
+  display: flex;
+}
+
+.columna {
+  display: flex;
+  padding: 0%;
+}
+
+.galeria img {
+  width: 200px;
+  margin: 3px;
+  margin-left: 4px;
+}
+
+.formulario li {
+  display: flex;
+  border: 4px solid rgb(9, 62, 160);
+  width: 16%;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .pindex {
+    font-size: 17px;
+  }
+  .spotify li {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

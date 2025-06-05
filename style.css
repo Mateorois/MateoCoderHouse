@@ -47,6 +47,8 @@ div li {
 
 .piedepagina {
   background-color: black;
+  display: flex;
+  margin: 8px;
 }
 
 .h1galeria {
