@@ -1,16 +1,15 @@
 
-@use "variables/variables"; 
+@use "variables/variables" as*; 
 
 
 h1{
-	font-size: 100px;
+	display: flex;
+	margin: 3%;
+	font-size: 25px;
   color: $color_1;
 	text-align: center;
 	text-decoration: underline;
-	margin: 0%;
-  .pbanda{
-  text-decoration: none;
-}
+	animation: myanimation 8s 1;
 }
 body {
 	background-color: $background-color_1;
@@ -36,6 +35,9 @@ div {
 	}
 	p {
 		font-size: 15px;
+		animation: myanimation 8s 1;
+		display: flex;
+		margin-left: 4%;
 	}
 	li {
 		color: $color_2;
@@ -76,11 +78,17 @@ h5 {
 }
 .galeria {
 	img {
-		width: 200px;
+		width: 250px;
 		margin: 3px;
-		margin-left: 4px;
-	}
+		margin-left: 4	px;
+        animation: myanimation 8s 1;
+	}	
 }
+@keyframes myanimation{
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
 .formulario {
 	li {
 		display: flex;
@@ -89,7 +97,10 @@ h5 {
 		justify-content: center;
 	}
 }
-@media (max-width: 480px) {
+@media (max-width: 421px) {
+	img{
+		width: 10px;
+	}
 	.pindex {
 		font-size: 17px;
 	}
@@ -99,3 +110,10 @@ h5 {
 		}
 	}
 }
+
+	.img1000{
+		width: 300px;
+		rotate: 270deg;
+		display: flex;
+		margin-left: 300px;
+	}
