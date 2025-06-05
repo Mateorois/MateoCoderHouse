@@ -2,13 +2,15 @@
 @use "variables/variables"; 
 
 
-@mixin h1($font-size, ) {
+h1{
 	font-size: 100px;
-  
   color: $color_1;
 	text-align: center;
 	text-decoration: underline;
 	margin: 0%;
+  .pbanda{
+  text-decoration: none;
+}
 }
 body {
 	background-color: $background-color_1;
