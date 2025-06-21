@@ -60,6 +60,8 @@ h5 {
 .spotify {
   display: grid;
   align-content: space-between;
+
+margin: 10px;
 }
 
 .pindex {
@@ -96,7 +98,7 @@ h5 {
   justify-content: center;
 }
 
-@media (max-width: 421px) {
+@media (max-width: 425px) {
   .galeria img {
     width: 60px;
   }
@@ -106,7 +108,9 @@ h5 {
   .spotify li {
     font-size: 10px;
   }
-}
+} 
+
+
 .img1000 {
   width: 140px;
   rotate: 270deg;
@@ -117,4 +121,6 @@ h5 {
 .img1 {
   width: 300px;
 margin: 30px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
