@@ -1,6 +1,6 @@
 
 @use "variables/variables" as*; 
-@use "media.scss" as*;
+
 h1{
 	display: flex;
 	margin: 3%;
@@ -109,3 +109,15 @@ h5 {
 		width: 450px;
 		margin-left: 32%;
 	}
+
+	@media (max-width: 421px) {
+  img {
+    width: 5px;
+  }
+  .pindex {
+    font-size: 17px;
+  }
+  .spotify li {
+    width: 0%;
+  }
+}

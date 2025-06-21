@@ -38,6 +38,7 @@ div p {
 div li {
   color: #afabab;
   margin: 10px;
+  font-size: 20px;
 }
 
 .piedepagina {
@@ -96,20 +97,19 @@ h5 {
 }
 .formulario li {
   display: flex;
-  border: 4px solid rgb(9, 62, 160);
   width: 16%;
   justify-content: center;
 }
 
 @media (max-width: 421px) {
   img {
-    width: 10%;
+    width: 5px;
   }
   .pindex {
     font-size: 17px;
   }
   .spotify li {
-    width: 100%;
+    font-size: 10px;
   }
 }
 .img1000 {
