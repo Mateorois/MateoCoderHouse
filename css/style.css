@@ -52,11 +52,6 @@ div li {
   font-size: 25px;
 }
 
-#carouselExampleCaptions {
-  width: 50%;
-  height: 40%;
-}
-
 h5 {
   color: #000000;
   margin: 50px;
@@ -97,13 +92,13 @@ h5 {
 }
 .formulario li {
   display: flex;
-  width: 16%;
+  width: 100x;
   justify-content: center;
 }
 
 @media (max-width: 421px) {
-  img {
-    width: 5px;
+  .galeria img {
+    width: 60px;
   }
   .pindex {
     font-size: 17px;
@@ -113,13 +108,13 @@ h5 {
   }
 }
 .img1000 {
-  width: 300px;
+  width: 140px;
   rotate: 270deg;
   display: flex;
-  margin-left: 32%;
+  margin-left: 30%;
 }
 
 .img1 {
-  width: 450px;
-  margin-left: 32%;
+  width: 300px;
+margin: 30px;
 }/*# sourceMappingURL=style.css.map */
