@@ -1,7 +1,6 @@
 
 @use "variables/variables" as*; 
-
-
+@use "media.scss" as*;
 h1{
 	display: flex;
 	margin: 3%;
@@ -13,10 +12,6 @@ h1{
 }
 body {
 	background-color: $background-color_1;
-}
-.mainmusica{
-	margin-left: 40px;
-
 }
 .linkimportante {
   @extend .redsociales;
@@ -68,6 +63,7 @@ h5 {
 .spotify {
 	display: grid;
 	align-content: space-between;
+		
 }
 .pindex {
 	display: flexbox;
@@ -96,24 +92,11 @@ h5 {
 .formulario {
 	li {
 		display: flex;
-		border: 4px solid rgb(9, 62, 160);
 		width: 16%;
 		justify-content: center;
 	}
 }
-@media (max-width: 421px) {
-	img{
-		width: 10%;
-	}
-	.pindex {
-		font-size: 17px;
-	}
-	.spotify {
-		li {
-			width: 100%;
-		}
-	}
-}
+
 
 	.img1000{
 		width: 300px;
